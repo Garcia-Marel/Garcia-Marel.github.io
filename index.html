@@ -1,11 +1,221 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="UTF-8">
 <head>
-    <meta charset="UTF-8">
-    <title>Tercer Parcial - Desarrollo Web</title>
-    <meta name="author" content="Marel Garcia Llanes">
-    <meta name="generator" content="Brackets 1.6">
-    <meta name="description" content="Sitio web desarrollado para la revision del tercer parcial 4AM-PR">
-    <link rel="stylesheet" href="css/styles.css">
-    <meta name="keywords" content="CETis108, bachillerato, Guasave, Sinaloa">
+ <title>FLORES LYM</title>
+
+ <link rel="stylesheet" href="css/styles.css">
+ <meta name="author" content="Marel Garcia Llanes">
+ <meta name="generator" content="Brackets 1.6">
+ <meta name="description" content="breve descripcion de la paguina">
+ <meta name="keywords" content="palabras,claves,del,sitio,separadas,por,coma">
+ <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 </head>
+<body >
+  
+   <div class="container block-center">
+        
+        <header id="encabezado">
+      
+            <figure>
+            <img id="logo-rock" src="imagenes/flor.jpg"alt="Logo sep" width="292px" height="140px">
+            </figure>
+        
+            <div id="titulos">
+            <h1>FLORES LYM</h1>
+           
+            </div>
+        <!-- Imagen sems degeti y cuadro de busqueda-->    
+            <div id="busqueda">
+            <figure>
+                <img src="imagenes/flores.jpg" alt="SEMS DGETI"width="292px" height="135px">
+            </figure>
+         
+        </header>
+     
+         <main id="contenido">
+             <!-- Nota principal-->
+        <section id="nota-principal">
+     <div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="imagenes/flor.jpg"  width="960px" height="319px">
+  <img class="mySlides" src="imagenes/notas/1/campo.jpg" width="960px" height="319px">
+  <img class="mySlides" src="imagenes/notas/2/violeta.jpg"width="960px" height="319px">
+  <img class="mySlides" src="imagenes/notas/3/lirios.jpg" width="960px" height="319px">
+  
+</div>
+       <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+        </section>
+        <div class="flexible">
+        <header>
+        <section id="nota-secundaria"  >
+           
+            <article class="nota-secundaria">
+                <figure>
+                    <img class="sombra-imagen" src="imagenes/notas/1/campo.jpg"width="260px" height="150px">
+                    </figure>
+            <div>
+                <br><h2><a href="#">GIRASOLES</a></h2>
+                <p>Nombre científico: Helianthus annuus L. La denominación científica procede del griego y está formado por las palabras helios (Sol) y anthos(flor), que significa “flor del Sol”.
+Familia: Compuestas 
+Hábitat: Es una planta herbácea originaria de América del Norte, y posteriormente traída a México y Perú.
+Originaria de América del Norte, la historia de la planta de girasol es extraordinaria, pues ha recorrido miles de quilómetros desde su descubrimiento, su importación, hasta comercializarse en Rusia, y volver a su hábitat proveniente años después.
+El girasol crece en suelos secos y soleados, debido a que sus raíces pueden explorar capas profundas del suelo.
+
+
+..</p>
+                <a href="#" class="ver-mas">
+                <div class="div-class">
+                    <div>
+                        <p>Leer mas</p>
+                    </div>
+                </div>
+                
+                </a>
+                
+            </div>
+            </article>
+            <article>
+            <figure>
+                    <img src="imagenes/notas/2/violeta.jpg" width="260px" height="150px">
+                    
+                </figure>
+            <div>
+                 <br><h2><a href="#">VIOLETA</a></h2>
+                <p >Nombre científico : Viola odorata L.
+Etimología: El nombre científico del género " Viola " procede del latín, que a su vez, procede del vocablo griego " Io".
+En la mitología, "Io" era la amante de Júpiter. La mujer de Júpiter estaba celosa de Io, así que Júpiter la protegió convirtiéndola en una ternerilla que se alimentaba en el prado. Para que "Io" pudiera alimentarse bien, Júpiter creo las violetas.
+Familia: Violáceas
+Hábitat: Procedente de Europa, habita principalmente debajo de los árboles de los bosques de este continente y en el norte de África, Canarias y Cáucaso. Necesita una cierta humedad para poder vivir adecuadamente por lo que prefiere las zonas umbrías tanto de debajo de los árboles, como junto a paredes poco soleadas. huertos, bordes de los caminos o entre la hierba del césped, preferentemente sobre suelos calcáreos.
+Descripción de la planta
+Planta perenne de la familia de las violáceas de hasta unos 15 cm de altura . Tallos apenas visibles procedentes de una raíz carnosa, con brotes estoloníferos.
+...</p>
+                <a href="#" class="ver-mas">
+                <div class="div-class">
+                    <div>
+                        <p>Leer mas</p>
+                    </div>
+                </div>
+                </a>
+            
+           
+             </div>
+            </article>
+            <article>
+            <figure>
+                    <img src="imagenes/notas/3/lirios.jpg" width="260px" height="180px">
+                   
+                </figure>
+            <div>
+                <br> <h2><a href="#">LIRIOS
+                </a></h2>
+                <p>Nombre cientifico: Convallaria majalis L.Familia: Liliaceas
+Habitat: Bosques de arboles caducos planifolios de montaña mediana. Cultivada tambien en jardineria.
+Principios activos del lirio de los valle
+- Glucosidos: Entre los que destacan: convallatoxol, convallamarina convalarina , convalosido , que se transforma en convalatoxina cuando la planta se seca.
+- Flavonoides
+- Aceite esencial, rico en farnesol
+- Ácidos : convalarico, quelidonico, malico, ferulico, citrico, cafeico....
+- Asparagina
+Partes activas: Toda la planta
+
+
+...</p>
+                <a href="#" class="ver-mas">
+                <div class="div-class">
+                    <div>
+                        <p>Leer mas</p>
+                    </div>
+                </div>
+                </a>
+               
+            </div>
+            </article>
+            <article>
+            <figure>
+                    <img src="imagenes/notas/4/margaritas.jpg"width="260px" height="180px">
+                  
+                </figure>
+            <div>
+               <br>  <h2><a href="#">MARGARITAS</a></h2>
+                <p>Etimología: Bellis deriva de bellus que significa, flor bonita o hermosa. Perennis hace referencia a que es una planta vivaz, que no pierde sus hojas en invierno.
+Familia: Compuestas
+Origen: planta nativa del centro y norte de Europa. Extendida en Asia Menor y naturalizada en América del Norte y Nueva Zelanda.
+Hábitat: planta perenne muy común en los prados de Europa, bosques, arroyos y márgenes de camino. Especialmente se encuentra en los bosques de pinares. Resiste las heladas.
+Distribución: prácticamente en todo el mundo, cultivada como planta ornamental o de forma silvestre.
+Características físicas de la Margarita común
+La margarita, maya, bellorita o chiribita (Bellis perennis) es una planta vivaz, detallos herbáceos que pertenece a la familia botánica de las compuestas.
+La margarita común crece en forma de roseta (con hojas basales) y mide poca altura, cerca de 15 - 20cm. Posee unas raíces rizomáticas, cilíndricas y rastreras
+
+...</p>
+                <a href="#" class="ver-mas">
+                <div class="div-class">
+                    <div>
+                        <p>Leer mas</p>
+                    </div>
+                </div>
+                </a>
+               
+                </div>
+                
+            </article>
+            <article>
+            <figure>
+                    <img src="imagenes/notas/5/rosas_rojas.jpg"width="260px" height="180px">
+                  
+                </figure>
+            <div>
+               <br>  <h2><a href="#">ROSA</a></h2>
+                <p>Nombre científico: Rosa canina. El nombre viene dado según algunos por la forma de los aguijones que recuerda a los caninos de los perros. Según otros, porque esta planta se utilizaba anteriormente para curar la rabia.
+Familia. Rosáceas
+Hábitat: Se encuentra en bosques, setos, al lado de los caminos.
+Descripción: Arbusto perenne de hasta dos metros de altura.
+Tallos de color verde, sarmentosos y colgantes, provistos de aguijones fuertes, curvados .
+Hojas compuestas con 2 o 3 pares de foliolos dentados ovales.
+Flores solitarias o agrupadas encorimbos de hasta 4 ,de color rosado o blanco, de 4 a 5 cm de diámetro, con numerosos estambres y
+sépalos que caen antes que el fruto.
+Fruto de hasta 2 cm de color rojo fuerte (escaramujo). A veces en sus ramos aparecen unas protuberancias que la misma planta origina para alojar las larvas de los insectos Rhodite Rosae . Estas formaciones se llaman bedegaresy ,como veremos más tarde, tienen aplicaciones medicinales.
+
+
+...</p>
+                <a href="#" class="ver-mas">
+                <div class="div-class">
+                    <div>
+                        <p>Leer mas</p>
+                    </div>
+                </div>
+                </a>
+               
+                </div>
+            </article>
+            
+        </section>
+            </header>
+        </div>
+        
+    </main>
+        <footer id="pie">
+         
+          
+          
+        </footer>
+    
+   
+   
+    </div>
+   
+</body>
+</html>
